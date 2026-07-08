@@ -1,28 +1,16 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/privacy.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" },
+    { "source": "/support", "destination": "/index.html" }
+  ],
   "redirects": [
-    {
-      "source": "/",
-      "destination": "/privacy.html",
-      "permanent": false
-    },
-    {
-      "source": "/privacy",
-      "destination": "/privacy.html",
-      "permanent": false
-    },
-    {
-      "source": "/terms",
-      "destination": "/terms.html",
-      "permanent": false
-    },
-    {
-      "source": "/support",
-      "destination": "mailto:support@timemind.app",
-      "permanent": false
-    }
+    { "source": "/privacy.html", "destination": "/privacy", "permanent": true },
+    { "source": "/terms.html", "destination": "/terms", "permanent": true },
+    { "source": "/index.html", "destination": "/support", "permanent": true }
   ],
   "headers": [
     {
