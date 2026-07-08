@@ -1,0 +1,241 @@
+{
+  "_warning": "這是 App Store Connect 的 metadata 草稿。實際上架前需要逐項 review 並由你決定。",
+  "_last_updated": "2026-07-08",
+
+  "app_information": {
+    "name": "TimeMind — AI 任務管家",
+    "subtitle": "說一句話,自動拆成任務",
+    "bundle_id": "com.timemind.app",
+    "sku": "TIMEMIND-2026-001",
+    "primary_language": "zh-Hant",
+    "primary_locale": "zh_TW",
+    "category_primary": "PRODUCTIVITY",
+    "category_secondary": "UTILITIES",
+    "content_rights": "Contains no third-party content",
+    "age_rating_questionnaire": {
+      "cartoon_violence": "NONE",
+      "realistic_violence": "NONE",
+      "sexual_content": "NONE",
+      "profanity_crude_humor": "NONE",
+      "alcohol_tobacco_drugs": "NONE",
+      "medical_treatment": "NONE",
+      "gambling": "NONE",
+      "horror_fear": "NONE",
+      "mature_themes": "NONE",
+      "additional_considerations": "NONE"
+    },
+    "price": "Free",
+    "availability": "All territories"
+  },
+
+  "privacy_policy": {
+    "url": "https://timemind.app/privacy",
+    "fallback_url": "https://github.com/eric1266160777/timemind/blob/main/store-listing/privacy.html"
+  },
+  "terms_of_service": {
+    "url": "https://timemind.app/terms",
+    "fallback_url": "https://github.com/eric1266160777/timemind/blob/main/store-listing/terms.html"
+  },
+  "support_url": "https://timemind.app/support",
+
+  "version_info": {
+    "version": "1.0.0",
+    "copyright": "© 2026 TimeMind Team",
+    "release_type_on_first_submit": "MANUAL"
+  },
+
+  "description_zh": {
+    "promotional_text": "用說的就能新增任務。TimeMind 把你的語音變成結構化的待辦清單,讓你專注在重要的事。",
+    "subtitle": "說一句話,自動拆成任務",
+    "description": [
+      "TimeMind 是專為忙碌的人打造的 AI 任務管家。",
+      "",
+      "◆ 你只需要開口講",
+      "按住麥克風說「提醒我明天三點開會,準備投影片」,TimeMind 會自動拆解成任務、加上時間、歸進正確的分類。",
+      "",
+      "◆ AI 幫你想下一步",
+      "不知道該從哪裡開始?TimeMind 會根據你的工作時段、優先度與剩餘精力,主動建議今天該做哪幾件事。",
+      "",
+      "◆ 隱私優先",
+      "• 所有任務資料預設存在你的裝置,完全不上傳",
+      "• 訪客模式不需登入、不留個資",
+      "• 錄音只在你按下錄音鍵時啟用,處理完即刪",
+      "• 完整原始碼政策見設定頁",
+      "",
+      "◆ 為 iPhone 量身打造",
+      "原生支援 iOS 18 以上的 Liquid Glass 風格、深色模式、動態字級、Spotlight 搜尋,以及 iPhone 主畫面 Widget。",
+      "",
+      "◆ 功能一覽",
+      "• 語音輸入任務(支援繁體中文、簡體中文、英文、日文)",
+      "• AI 任務解析:自動標時間、分類、優先度、子任務",
+      "• 智慧排程建議:依工作時段、緩衝時間、優先度排序",
+      "• 多分類(工作/學習/生活/自訂)",
+      "• iCloud 風格帳戶隔離(本地版)",
+      "• Spotlight 整合",
+      "• 推播提醒(任務到期前 30 分鐘)",
+      "",
+      "讓我們幫你把腦中的雜事,變成實際完成的事。"
+    ].join("\n"),
+    "keywords": "任務,待辦,todo,語音,AI,時間管理,排程",
+    "whats_new": "TimeMind 首發!感謝你成為早期使用者。"
+  },
+
+  "description_en": {
+    "promotional_text": "Speak your tasks. TimeMind turns voice into structured to-dos so you can focus on what matters.",
+    "subtitle": "Speak. Auto-sorted.",
+    "description": [
+      "TimeMind is the AI task assistant built for busy people.",
+      "",
+      "◆ Just speak",
+      "Hold the mic and say \"remind me at 3pm tomorrow to prep slides for the meeting\" — TimeMind parses it into a task with time and category automatically.",
+      "",
+      "◆ AI plans your day",
+      "Don't know where to start? TimeMind suggests today's tasks based on your working hours, priority, and remaining capacity.",
+      "",
+      "◆ Privacy-first",
+      "• Tasks stored on your device by default, never uploaded",
+      "• Guest mode: no account needed, no personal data collected",
+      "• Microphone only activates when you tap record; audio is deleted after processing",
+      "",
+      "◆ Built for iPhone",
+      "Native support for iOS 18+, Liquid Glass styling, dark mode, dynamic type, Spotlight integration, and home-screen widgets.",
+      "",
+      "Let TimeMind turn your mental clutter into completed tasks."
+    ].join("\n"),
+    "keywords": "task,todo,voice,AI,schedule,productivity,priorities",
+    "whats_new": "TimeMind launch! Thank you for being an early user."
+  },
+
+  "app_privacy_labels": {
+    "_note": "Apple 強制要填。每個類別決定是否蒐集,以及是否 link to user identity。",
+    "_guidance": "依 TimeMind 實際行為填寫。修改請與隱私政策文件一致。",
+    "data_collected": [
+      {
+        "category": "Contact Info",
+        "items": ["Email Address"],
+        "purposes": ["App Functionality", "Account Management"],
+        "linked_to_user": true,
+        "used_for_tracking": false
+      },
+      {
+        "category": "User Content",
+        "items": ["Audio", "Photos or Videos", "Other User Content (task text, notes, categories)"],
+        "purposes": ["App Functionality"],
+        "linked_to_user": true,
+        "used_for_tracking": false
+      },
+      {
+        "category": "Identifiers",
+        "items": ["User ID"],
+        "purposes": ["App Functionality", "Account Management"],
+        "linked_to_user": true,
+        "used_for_tracking": false
+      },
+      {
+        "category": "Usage Data",
+        "items": ["Product Interaction"],
+        "purposes": ["App Functionality", "Analytics"],
+        "linked_to_user": false,
+        "used_for_tracking": false
+      },
+      {
+        "category": "Diagnostics",
+        "items": ["Crash Data", "Performance Data"],
+        "purposes": ["App Functionality"],
+        "linked_to_user": false,
+        "used_for_tracking": false
+      }
+    ],
+    "data_not_collected_disclaimer": "TimeMind does not collect any data for advertising, marketing, or third-party tracking purposes. Voice recordings are processed locally and deleted after transcription; only the transcribed text is sent to AI services.",
+    "health_fitness_medical": false,
+    "kids_app": false,
+    "data_sharing": {
+      "third_party_advertising": false,
+      "developer_advertising": false,
+      "analytics": false,
+      "third_party_functionality": "Voice audio and transcribed text are sent ONLY to DeepSeek and AssemblyAI services for task transcription / parsing (user-triggered, not automatic)."
+    }
+  },
+
+  "required_assets": {
+    "_note": "上架前必須有以下圖檔。截圖規格從真機產生。",
+    "app_icon_1024x1024": {
+      "path": "assets/images/icon.png",
+      "status": "EXISTS — verify it is 1024x1024 with no transparency"
+    },
+    "screenshots_required": [
+      {
+        "device_type": "iPhone 6.7\"",
+        "models": ["iPhone 15 Pro Max", "iPhone 16 Pro Max", "iPhone 17 Pro Max"],
+        "size": "1290 × 2796 px",
+        "min_count": 1,
+        "max_count": 10
+      },
+      {
+        "device_type": "iPhone 6.5\"",
+        "models": ["iPhone 11 Pro Max", "iPhone XS Max"],
+        "size": "1242 × 2688 px",
+        "min_count": 1,
+        "max_count": 10
+      },
+      {
+        "device_type": "iPhone 5.5\"",
+        "models": ["iPhone 8 Plus"],
+        "size": "1242 × 2208 px",
+        "min_count": 1,
+        "max_count": 10
+      }
+    ],
+    "optional_assets": {
+      "iphone_6.9_inch": {
+        "size": "1320 × 2868 px",
+        "models": ["iPhone 17 Pro Max"],
+        "note": "optional but recommended (2026+ devices)"
+      },
+      "ipad_12.9": {
+        "size": "2048 × 2732 px",
+        "note": "optional — only if iPad is supported"
+      }
+    }
+  },
+
+  "app_review": {
+    "_note": "送審時填寫的 Apple 審查員會看到的資訊",
+    "signin_required": true,
+    "signin_credentials": {
+      "_note": "Apple 規定:若 App 需登入才能進入主介面,審查員必須能用一組測試帳號登入。",
+      "approach": "PROVIDE_A_DEMO_ACCOUNT",
+      "username": "demo@timemind.app",
+      "password_env_var": "APP_REVIEW_DEMO_PASSWORD",
+      "_action_required": "Before submission: create demo@timemind.app in your auth system and store the password as EAS Secret APP_REVIEW_DEMO_PASSWORD.",
+      "_important": "Make sure this demo account has EXAMPLE TASKS already populated so the reviewer sees real functionality."
+    },
+    "review_notes_zh": [
+      "感謝審查。本 App 提供一組 demo 帳號(email 見 Sign-in Information)供你直接登入查看主介面與所有功能。",
+      "",
+      "測試建議:",
+      "1. 登入後會看到已預先建立的範例任務(涵蓋語音輸入、AI 解析、多分類)。",
+      "2. 若想測語音錄音功能,請到 Settings → Voice Input 啟用麥克風權限。",
+      "3. AI 功能需要網路;DeepSeek / AssemblyAI 為付費 API,在審查期間可能用量受限,請放心測試,我們已預先載入範例資料。",
+      "",
+      "如有問題,請透過 review@timemind.app 與我們聯絡。"
+    ].join("\n"),
+    "attachment_url": ""
+  },
+
+  "prelaunch_checklist": {
+    "_note": "送審前必須勾選的項目",
+    "items": [
+      "tested_on_real_device: DONE — iPhone user-verified 2026-07",
+      "tested_through_full_account_lifecycle: TODO",
+      "no_recent_crashes": "TODO — check after TestFlight beta",
+      "release_notes_provided": "TODO",
+      "private_data_only_in_correct_field": "TODO",
+      "app_icon_has_no_transparency": "TODO — verify icon.png",
+      "no_placeholder_text": "TODO — search code for 'TODO', 'FIXME'",
+      "screenshots_accurate_for_target_devices": "TODO",
+      "app_works_without_internet_for_core_features": "DONE — local storage first",
+      "app_works_on_first_launch_no_account_required": "PARTIAL — guest mode works, but review account provided"
+    ]
+  }
+}
